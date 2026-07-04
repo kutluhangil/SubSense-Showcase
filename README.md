@@ -1,3 +1,27 @@
+<div align="center">
+
+<img src="play-assets/feature-graphic.png" alt="SubSense — subscription tracker" width="100%" />
+
+<br /><br />
+
+<img src="https://img.shields.io/badge/SubSense-v2.4.1-6C5CE7?style=for-the-badge&logoColor=white" alt="version" />
+<img src="https://img.shields.io/badge/Google_Play-Live-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="google play" />
+<img src="https://img.shields.io/badge/Android-com.subsense.apps-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="android" />
+<img src="https://img.shields.io/badge/iOS-Capacitor_6-119EFF?style=for-the-badge&logo=apple&logoColor=white" alt="ios" />
+
+<br />
+
+<img src="https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript" />
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="react" />
+<img src="https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="vite" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-v3-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="tailwind" />
+<img src="https://img.shields.io/badge/Firebase-Optional_Sync-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="firebase" />
+<img src="https://img.shields.io/badge/Vitest-85_Passed-brightgreen?style=for-the-badge&logo=vitest&logoColor=white" alt="tests" />
+<img src="https://img.shields.io/badge/i18n-TR_%2F_EN-0EA5E9?style=for-the-badge" alt="i18n" />
+<img src="https://img.shields.io/badge/Architecture-Local--first-10B981?style=for-the-badge" alt="local-first" />
+
+<br /><br />
+
 ```text
 ███████╗██╗   ██╗██████╗ ███████╗███████╗███╗   ██╗███████╗███████╗
 ██╔════╝██║   ██║██╔══██╗██╔════╝██╔════╝████╗  ██║██╔════╝██╔════╝
