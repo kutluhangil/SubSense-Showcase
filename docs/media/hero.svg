@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="SubSense — showcase of the subscription tracker">
+<style>
+.bg{animation:bg 12s linear infinite}
+@keyframes bg{0%,8%{fill:#eef3ef}28%{fill:#234a3c}48%,80%{fill:#06100c}90%,100%{fill:#eef3ef}}
+.ink{animation:ink 12s linear infinite}
+@keyframes ink{0%,8%{fill:#13241d}28%{fill:#ecfbf3}48%,80%{fill:#e3f7ec}90%,100%{fill:#13241d}}
+.rule{animation:rule 12s linear infinite}
+@keyframes rule{0%,8%{stroke:#13241d33}28%{stroke:#ecfbf333}48%,80%{stroke:#e3f7ec33}90%,100%{stroke:#13241d33}}
+.panel{animation:panel 12s linear infinite}
+@keyframes panel{0%,8%{fill:#13241d12}28%{fill:#ecfbf312}48%,80%{fill:#e3f7ec12}90%,100%{fill:#13241d12}}
+.muted{opacity:.72}
+.stars{animation:stars 12s linear infinite}
+@keyframes stars{0%,8%{opacity:0}28%{opacity:.25}48%,80%{opacity:.9}90%,100%{opacity:0}}
+@keyframes tw{0%,100%{opacity:1}50%{opacity:.25}}
+.lit{filter:drop-shadow(0 0 4px currentColor)}
+.pulse{animation:pulse 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+@keyframes spin{0%{transform:scaleX(1)}50%{transform:scaleX(0)}100%{transform:scaleX(-1)}}
+@keyframes ping{0%{transform:scale(.6);opacity:1}100%{transform:scale(3.2);opacity:0}}
+@keyframes dash{to{stroke-dashoffset:-20}}
+@keyframes grow{0%{transform:scaleY(.08)}35%,80%{transform:scaleY(1)}100%{transform:scaleY(.08)}}
+@keyframes draw{0%{stroke-dashoffset:700}45%,80%{stroke-dashoffset:0}100%{stroke-dashoffset:-700}}
+@keyframes blink{50%{opacity:0}}
+@keyframes feed{0%{transform:translateY(150px);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateY(-30px);opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes slide{to{transform:translateX(100px)}}
+@keyframes eq{from{transform:scaleY(.15)}to{transform:scaleY(1)}}
+@keyframes drop{0%,6%{transform:scaleY(0);opacity:0}16%,88%{transform:scaleY(1);opacity:1}96%,100%{transform:scaleY(0);opacity:0}}
+@keyframes gauge{0%,10%{stroke-dashoffset:390}40%,85%{stroke-dashoffset:110}100%{stroke-dashoffset:390}}
+@keyframes lift{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes sweep{0%{transform:skewX(-18deg) translateX(0)}60%,100%{transform:skewX(-18deg) translateX(788px)}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect class="bg" width="1200" height="440" rx="28" fill="#eef3ef"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="2.4"><text class="ink muted" x="64" y="104">SHOWCASE · GOOGLE PLAY</text></g>
+<text class="ink" x="60" y="236" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-style="italic" font-size="78" letter-spacing="-1">SubSense.</text>
+<text class="ink muted" x="64" y="300" font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="20">Forgotten trials and silent price hikes, caught.</text>
+<line class="rule" x1="64" y1="372" x2="1136" y2="372"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="1.8">
+  <text class="ink muted" x="64" y="404">FREE · NO ACCOUNT NEEDED</text>
+  <text class="ink muted" x="600" y="404" text-anchor="middle">TR / EN</text>
+  <text class="ink muted" x="1136" y="404" text-anchor="end">SOURCE KEPT PRIVATE</text>
+</g>
+<rect class="panel rule" x="652" y="92" width="488" height="262" rx="24"/>
+<g class="stars"><circle cx="959.8" cy="241.2" r="1" fill="#fff" style="animation:tw 2s ease-in-out 1s infinite"/><circle cx="875.4" cy="276.3" r="1.3" fill="#fff" style="animation:tw 3.5s ease-in-out 0.6s infinite"/><circle cx="800.4" cy="215.2" r="1.9" fill="#fff" style="animation:tw 2.4s ease-in-out 1.4s infinite"/><circle cx="735" cy="150.4" r="0.8" fill="#fff" style="animation:tw 2.2s ease-in-out 0.7s infinite"/><circle cx="776.6" cy="212.2" r="1" fill="#fff" style="animation:tw 3.1s ease-in-out 0.2s infinite"/><circle cx="1068" cy="173.4" r="1.9" fill="#fff" style="animation:tw 3s ease-in-out 0.1s infinite"/><circle cx="668" cy="309.7" r="0.8" fill="#fff" style="animation:tw 3.4s ease-in-out 1.8s infinite"/><circle cx="785.5" cy="270.3" r="1.4" fill="#fff" style="animation:tw 3.2s ease-in-out 0.4s infinite"/><circle cx="1060.8" cy="299.5" r="0.7" fill="#fff" style="animation:tw 3.3s ease-in-out 0.2s infinite"/><circle cx="1093.8" cy="208.8" r="1" fill="#fff" style="animation:tw 1.6s ease-in-out 1.2s infinite"/><circle cx="981.5" cy="217.3" r="0.6" fill="#fff" style="animation:tw 3.8s ease-in-out 2s infinite"/><circle cx="1031.9" cy="302.4" r="1.3" fill="#fff" style="animation:tw 2.3s ease-in-out 0.8s infinite"/><circle cx="777" cy="326.5" r="0.9" fill="#fff" style="animation:tw 2.1s ease-in-out 1.9s infinite"/><circle cx="672.3" cy="339.1" r="0.7" fill="#fff" style="animation:tw 3.5s ease-in-out 0.1s infinite"/><circle cx="721.8" cy="296.1" r="0.9" fill="#fff" style="animation:tw 2.9s ease-in-out 1.6s infinite"/><circle cx="781" cy="198.3" r="0.8" fill="#fff" style="animation:tw 1.6s ease-in-out 1.4s infinite"/><circle cx="882" cy="122.3" r="1" fill="#fff" style="animation:tw 3.5s ease-in-out 1.5s infinite"/><circle cx="875.8" cy="124.3" r="1.5" fill="#fff" style="animation:tw 3.1s ease-in-out 1.2s infinite"/><circle cx="926.2" cy="151.8" r="1.5" fill="#fff" style="animation:tw 3s ease-in-out 0.5s infinite"/><circle cx="877.7" cy="181.2" r="0.8" fill="#fff" style="animation:tw 2.8s ease-in-out 1.9s infinite"/><circle cx="1035.6" cy="214.8" r="1" fill="#fff" style="animation:tw 3.6s ease-in-out 1.3s infinite"/><circle cx="1037.7" cy="182.9" r="1.7" fill="#fff" style="animation:tw 3s ease-in-out 0.9s infinite"/><circle cx="879.5" cy="289.8" r="1" fill="#fff" style="animation:tw 3.1s ease-in-out 0.9s infinite"/><circle cx="934" cy="243.2" r="0.8" fill="#fff" style="animation:tw 1.6s ease-in-out 1.7s infinite"/><circle cx="1094.9" cy="294.7" r="1.5" fill="#fff" style="animation:tw 2.6s ease-in-out 1.9s infinite"/><circle cx="1081.7" cy="237.4" r="1.3" fill="#fff" style="animation:tw 4s ease-in-out 0.1s infinite"/></g>
+<defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="gc"><rect x="652" y="92" width="488" height="262" rx="24"/></clipPath></defs><g style="animation:lift 6s ease-in-out 0s infinite"><rect x="686" y="114" width="132" height="104" rx="14" fill="#000" fill-opacity=".25" stroke="#fff" stroke-opacity=".16"/>
+<rect x="696" y="124" width="112" height="58" rx="9" fill="#3ddc97" fill-opacity=".85"/>
+<rect x="696" y="190" width="50.2" height="8" rx="4" fill="#fff" fill-opacity=".8"/><rect x="696" y="203" width="34" height="6" rx="3" fill="#fff" fill-opacity=".45"/></g><g style="animation:lift 6s ease-in-out -1s infinite"><rect x="838" y="114" width="132" height="104" rx="14" fill="#000" fill-opacity=".25" stroke="#fff" stroke-opacity=".16"/>
+<rect x="848" y="124" width="112" height="58" rx="9" fill="#ffb547" fill-opacity=".85"/>
+<rect x="848" y="190" width="99.7" height="8" rx="4" fill="#fff" fill-opacity=".8"/><rect x="848" y="203" width="34" height="6" rx="3" fill="#fff" fill-opacity=".45"/></g><g style="animation:lift 6s ease-in-out -2s infinite"><rect x="990" y="114" width="132" height="104" rx="14" fill="#000" fill-opacity=".25" stroke="#fff" stroke-opacity=".16"/>
+<rect x="1000" y="124" width="112" height="58" rx="9" fill="#7aa7ff" fill-opacity=".85"/>
+<rect x="1000" y="190" width="86.2" height="8" rx="4" fill="#fff" fill-opacity=".8"/><rect x="1000" y="203" width="34" height="6" rx="3" fill="#fff" fill-opacity=".45"/></g><g style="animation:lift 6s ease-in-out -3s infinite"><rect x="686" y="236" width="132" height="104" rx="14" fill="#000" fill-opacity=".25" stroke="#fff" stroke-opacity=".16"/>
+<rect x="696" y="246" width="112" height="58" rx="9" fill="#ffb547" fill-opacity=".85"/>
+<rect x="696" y="312" width="81.3" height="8" rx="4" fill="#fff" fill-opacity=".8"/><rect x="696" y="325" width="34" height="6" rx="3" fill="#fff" fill-opacity=".45"/></g><g style="animation:lift 6s ease-in-out -4s infinite"><rect x="838" y="236" width="132" height="104" rx="14" fill="#000" fill-opacity=".25" stroke="#fff" stroke-opacity=".16"/>
+<rect x="848" y="246" width="112" height="58" rx="9" fill="#7aa7ff" fill-opacity=".85"/>
+<rect x="848" y="312" width="73.8" height="8" rx="4" fill="#fff" fill-opacity=".8"/><rect x="848" y="325" width="34" height="6" rx="3" fill="#fff" fill-opacity=".45"/></g><g style="animation:lift 6s ease-in-out -5s infinite"><rect x="990" y="236" width="132" height="104" rx="14" fill="#000" fill-opacity=".25" stroke="#fff" stroke-opacity=".16"/>
+<rect x="1000" y="246" width="112" height="58" rx="9" fill="#3ddc97" fill-opacity=".85"/>
+<rect x="1000" y="312" width="92.4" height="8" rx="4" fill="#fff" fill-opacity=".8"/><rect x="1000" y="325" width="34" height="6" rx="3" fill="#fff" fill-opacity=".45"/></g>
+<g clip-path="url(#gc)"><rect x="512" y="92" width="120" height="262" fill="url(#sh)" transform="skewX(-18)" style="animation:sweep 4s ease-in-out infinite"/></g>
+</svg>
