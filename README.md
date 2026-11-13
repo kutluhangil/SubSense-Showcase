@@ -76,7 +76,7 @@ SubSense is a bilingual subscription tracker for Android. It shows what you real
 ```
 play-assets/
   play-icon-512.png       store icon
-  feature-graphic.png     1024 × 500 feature graphic
+  feature-graphic.png     feature graphic (2976 × 1440)
   store-01 … store-05.png the five phone screenshots, in store order
 docs/media/               README banner, divider and signature
 ```
